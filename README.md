@@ -1,9 +1,9 @@
-# 🔗 URL Shortly Web App
+🔗 URL Shortly Web App
 
 ## 📌 Overview
 
 This project is a simple **URL shortening web application** inspired by the Shortly design.
-It allows users to input a long URL, generate a shortened version using an API, and copy the result بسهولة.
+It allows users to input a long URL, generate a shortened version using an API, and copy the result.
 
 
 ## 🚀 Features
