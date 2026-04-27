@@ -422,7 +422,7 @@ footer a{
     font-size: 1.2rem;
   }
   .first-section-mobile .btn{
-    margin-left: 7rem;
+    margin-left: 7.5rem;
     padding: 1rem;
     font-size: 1rem;
 
@@ -434,7 +434,7 @@ footer a{
   left: 0;
   width: 0.5rem;
   height: 70%;
-  margin-left: 11rem;
+  margin-left: 11.5rem;
   background: #2acfcf;
   transform: translateY(-50%);
   z-index: -2; 
