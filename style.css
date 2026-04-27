@@ -135,6 +135,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+
 }
 .cards::before {
   content: "";
@@ -180,6 +181,7 @@ body {
 .three {
   margin-top: 5rem;
 }
+
 /* bottom */
 .boost {
   background: #3b3054;
@@ -253,27 +255,32 @@ footer img {
   .first-section-mobile{
     display: flex;
     flex-direction: column-reverse;
-    background: white;
+  padding: 3.5rem;
+  background: white;
+  position: relative;
   }
   .first-section-mobile h1{
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 900;
     text-align: center;
   }
   .first-section-mobile p{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: gray;
     text-align: center;
   }
   .first-section-mobile .btn{
-    margin-left: 20rem;
-    padding: 2rem;
-    font-size: 2rem;
-    border-radius: 2.2rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%); 
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
   }
   .section2{
     display: flex;
     flex-direction: column;
+    margin-top: 5rem;
   }
   .section3{
     display: none;
@@ -298,14 +305,13 @@ text-align: center;
 .cards::before {
   content: "";
   position: absolute;
-  top: 50%;
-  left: 0;
+  left: 50%;
+  top: 0;
   width: 0.5rem;
   height: 70%;
-  margin-left: 27rem;
+  margin-left: 0.2rem;
   background: #2acfcf;
-  transform: translateY(-50%);
-  z-index: -2;
+  transform: translateX(-50%);
 }
 .card p {
 font-size: 2rem;
@@ -357,7 +363,6 @@ footer a{
     font-size: 1.5rem;
   }
   .first-section-mobile .btn{
-    margin-left: 9rem;
     padding: 1rem;
     font-size: 1rem;
 
@@ -380,14 +385,13 @@ font-size: 1rem;
 .cards::before {
   content: "";
   position: absolute;
-  top: 50%;
-  left: 0;
+left: 50%;
+  top: 0;
   width: 0.5rem;
   height: 70%;
-  margin-left: 18rem;
+  margin-left: 0.1rem;
   background: #2acfcf;
-  transform: translateY(-50%);
-  z-index: -2;
+  transform: translateX(-50%);
   
 }
 .boost{
@@ -422,7 +426,6 @@ footer a{
     font-size: 1.2rem;
   }
   .first-section-mobile .btn{
-    margin-left: 7.5rem;
     padding: 1rem;
     font-size: 1rem;
 
@@ -430,14 +433,12 @@ footer a{
   .cards::before {
   content: "";
   position: absolute;
-  top: 50%;
-  left: 0;
+  left: 50%;
+  top: 0;
   width: 0.5rem;
   height: 70%;
-  margin-left: 11.5rem;
   background: #2acfcf;
-  transform: translateY(-50%);
-  z-index: -2; 
+  transform: translateX(-50%);
 }
 .boost{
   font-size: 0.8rem;
